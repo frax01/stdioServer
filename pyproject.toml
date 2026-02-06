@@ -1,0 +1,7 @@
+[project]
+name = "stdioServer"
+version = "0.1.0"
+dependencies = ["mcp"]
+
+[project.scripts]
+stdioServer = "server:main"
